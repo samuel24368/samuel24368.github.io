@@ -38,7 +38,7 @@ p {
 }
 
 .contenido-header .fondo {
-	width: 0%;
+	width: 10%;
 	height: 100%;
 	max-width: 100%;
 	background-image: url(../img/bg-2.png);
@@ -91,7 +91,7 @@ p {
 	width: 100%;
 	position: sticky;
 	top: 0;
-	padding: 5px;
+	padding: 0px;
 	z-index: 999;
 	text-align: center;
 	display:  flex;
@@ -192,6 +192,15 @@ p {
 	margin-bottom: 60px;
 
 }
+
+	.abaud-me img {
+		padding: 5px;
+		align-items: center;
+
+		border-radius: 10%;
+		width: 40%;
+		margin-left: 30%;
+	}
 
 .works .titulo {
 	width: 70%;
@@ -360,8 +369,84 @@ p {
 		width: 100px;
 	}
 
+}
+
+@media screen and (max-width: 352px) {
+	p {
+		font-size: 12px;
+	}
+
+	.contenido-header .texto {
+
+		font-size: 30px;
+	}
 
 
+
+	.menu a {
+		font-size: 10px;
+	}
+
+
+
+	.abaud .titulo,
+	.works .titulo {
+		font-size: 15px;
+	}
+
+	.acerca-de img {
+		padding: 5px;
+		border-radius: 50%;
+		width: 100px;
+	}
+
+	.acerca-de strong {
+		font-size: 20px;
+	}
+
+	.acerca-de .coment {
+		font-size: 12px;
+	}
+
+	.abaud img {
+		padding: 5px;
+		border-radius: 50%;
+		width: 50px;
+	}
+
+	.abaud-me img {
+		padding: 5px;
+		align-items: center;
+		border-radius: 100%;
+		width: 100%;
+	}
+
+	.abaud-me .titulo {
+		font-size: 20px;
+	}
+
+	.abaud-me p {
+		font-size: 10px;
+	}
+
+	.abaud-me .enlace {
+		font-size: 10px;
+	}
+
+	.separador p {
+		font-size: 20px;
+	}
+
+.menu a {
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 10px;
+	background-color: var(--blue-sam);
+	margin: 0 10px;
+	transition: .5s ease all;
+	color: white;
+	text-decoration: none;
+}
 
 
 
